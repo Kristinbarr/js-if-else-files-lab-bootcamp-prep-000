@@ -7,13 +7,9 @@ We will eventually explain how to use the professional testing tools but first, 
 After you open this lesson in the IDE, double-click on `index.js`. You'll see some basic code:
 
 ```javascript
-var name = "Susan"
+var name = "Joe"
 var height = "74"
-if (name == 'Susan') {
-  console.log('The name is correct')
-} else {
-    console.log("Expected the name to be Susan")
-}
+
 // Don't worry about this
 module.exports = { name, height
 }
@@ -24,8 +20,6 @@ First of all, don't worry about the `module.exports` stuff right now, we'll get 
 ```javascript
 if (name === "Susan") {
     console.log("The name is correct")
-} else {
-    console.log("Expected the name to be Susan")
 }
 ```
 
